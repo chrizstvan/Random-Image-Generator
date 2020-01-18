@@ -20,4 +20,26 @@
 }
 
 
+- (IBAction)generateButton:(id)sender {
+    
+    [self generateImage];
+}
+
+-(void) generateImage {
+    
+    //Get Image List path
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"ImageList" ofType:@"plist"];
+    
+    //refrence file in those path.. in this case is dictionary type file
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    
+    //refrence list in that file
+    NSMutableArray *array = dict[@"Images"];
+    
+    //make random
+    int randomImage = arc4random() % array.count;
+    
+    //binding to UI
+    self.imageView.image = [UIImage imageNamed:array[randomImage]];
+}
 @end

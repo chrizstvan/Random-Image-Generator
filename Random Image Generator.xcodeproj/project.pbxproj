@@ -13,6 +13,7 @@
 		BD3504A323D2DBDE007AFAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3504A223D2DBDE007AFAAF /* Assets.xcassets */; };
 		BD3504A623D2DBDE007AFAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3504A423D2DBDE007AFAAF /* LaunchScreen.storyboard */; };
 		BD3504A923D2DBDE007AFAAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3504A823D2DBDE007AFAAF /* main.m */; };
+		BD3504B223D2DDCE007AFAAF /* ImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD3504B123D2DDCE007AFAAF /* ImageList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD3504A523D2DBDE007AFAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3504A723D2DBDE007AFAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3504A823D2DBDE007AFAAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD3504B123D2DDCE007AFAAF /* ImageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImageList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				BD3504A423D2DBDE007AFAAF /* LaunchScreen.storyboard */,
 				BD3504A723D2DBDE007AFAAF /* Info.plist */,
 				BD3504A823D2DBDE007AFAAF /* main.m */,
+				BD3504B123D2DDCE007AFAAF /* ImageList.plist */,
 			);
 			path = "Random Image Generator";
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3504B223D2DDCE007AFAAF /* ImageList.plist in Resources */,
 				BD3504A623D2DBDE007AFAAF /* LaunchScreen.storyboard in Resources */,
 				BD3504A323D2DBDE007AFAAF /* Assets.xcassets in Resources */,
 				BD3504A123D2DBDD007AFAAF /* Main.storyboard in Resources */,
